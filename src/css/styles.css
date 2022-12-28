@@ -17,4 +17,41 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+  border-radius: 10px;
+}
+
+.header-wrapper {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.countryCard__text {
+  margin-left: 12px;
+  font-size: 20px;
+}
+
+.countryCard__text span {
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+.country-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.country-list__item {
+  display: flex;
+}
+
+.country-list__image {
+  margin: 0px 15px 0px 0px;
+}
+
+img {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 15px;
+  height: 35px;
 }
