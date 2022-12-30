@@ -6,7 +6,7 @@ function fetchCountries(name) {
 
   return fetch(`${URL}/${name}?${options}`).then(response => {
     if (!response.ok) {
-      throw new Error(response.status);
+      throw new Error(response.statusText);
     }
 
     return response.json();
